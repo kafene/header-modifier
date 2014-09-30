@@ -1,0 +1,24 @@
+{
+    "name": "header-modifier",
+    "title": "header-modifier",
+    "id": "jid1-IlJhjPIs7871vQ",
+    "description": "Modify both request and response headers. Specify preferences as JSON strings in the form {\"header-name\": \"header-value\"}. Headers with the value of '\"\"' (an empty string) will be removed. If the setting is 'null', modification will not be attempted.",
+    "author": "kafene software",
+    "homepage": "http://kafene.org/",
+    "license": "MPL 2.0",
+    "version": "0.1",
+    "preferences": [
+        {
+            "name": "request",
+            "title": "Request Header Modifications",
+            "type": "string",
+            "value": "null"
+        },
+        {
+            "name": "response",
+            "title": "Response Header Modifications",
+            "type": "string",
+            "value": "null"
+        }
+    ]
+}
