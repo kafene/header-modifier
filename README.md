@@ -3,6 +3,12 @@ header-modifier
 
 Firefox extension to modify Request and Response headers
 
+As far as I know there are no other extensions that allow you to easily
+modify response headers, at least none which are compatible with FF32+.
+
+There are better extensions to modify the request headers, but since it was
+trivial to implement, this does have the ability to do so.
+
 Building
 ========
 
@@ -40,3 +46,9 @@ Or, for example, to remove the User-Agent header, set the "Request Header Modifi
 ```json
 {"User-Agent": ""}
 ```
+
+To-do
+=====
+
+* Allow modifying headers on a per-site basis.
+* Allow merging with existing headers instead of overwriting.
