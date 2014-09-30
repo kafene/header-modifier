@@ -11,12 +11,14 @@
         {
             "name": "request",
             "title": "Request Header Modifications",
+            "description": "",
             "type": "string",
             "value": "null"
         },
         {
             "name": "response",
             "title": "Response Header Modifications",
+            "description": "",
             "type": "string",
             "value": "null"
         }
